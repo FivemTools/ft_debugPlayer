@@ -1,8 +1,6 @@
--- @Author: samuelds
--- @Date:   2017-06-07T20:56:10+02:00
+-- @Date:   2017-06-11T23:21:31+02:00
 -- @Project: FiveM Tools
--- @Last modified by:
--- @Last modified time: 2017-06-10T16:14:32+02:00
+-- @Last modified time: 2017-06-11T23:21:32+02:00
 -- @License: GNU General Public License v3.0
 
 -- Get all player data
