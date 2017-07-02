@@ -1,6 +1,6 @@
 -- @Date:   2017-06-11T23:21:31+02:00
 -- @Project: FiveM Tools
--- @Last modified time: 2017-06-11T23:21:32+02:00
+-- @Last modified time: 2017-07-02T18:11:41+02:00
 -- @License: GNU General Public License v3.0
 
 -- Get all player data
@@ -30,7 +30,7 @@ RegisterNetEvent('ft_debugPlayer:ClSetPlayerData')
 AddEventHandler('ft_debugPlayer:ClSetPlayerData', function(data)
   Citizen.CreateThread(function()
 
-    TriggerEvent("ft:ClSetPlayerData", data)
+    TriggerEvent("ft_gamemode:ClSetPlayerData", data)
     TriggerEvent("ft_debugPlayer:ClGetPlayer")
 
   end)
