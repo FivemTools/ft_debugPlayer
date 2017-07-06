@@ -1,10 +1,10 @@
 -- @Date:   2017-06-11T23:21:35+02:00
 -- @Project: FiveM Tools
--- @Last modified time: 2017-07-02T18:11:30+02:00
+-- @Last modified time: 2017-07-06T19:42:10+02:00
 -- @License: GNU General Public License v3.0
 
 -- Get All player data
-TriggerEvent("ft_debugPlayer:SvAddSimpleCommand", "SvPlayers", 2, function (source, args)
+TriggerEvent("ft_gamemode:SvAddSimpleCommand", "SvPlayers", 2, function (source, args)
 
   TriggerEvent("ft_gamemode:SvGetPlayers", function (players)
     TriggerEvent("ft_debugBase:SvDebug", players)
