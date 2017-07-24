@@ -1,6 +1,4 @@
--- @Date:   2017-06-11T23:21:35+02:00
 -- @Project: FiveM Tools
--- @Last modified time: 2017-07-06T22:25:00+02:00
 -- @License: GNU General Public License v3.0
 
 -- Get All player data
