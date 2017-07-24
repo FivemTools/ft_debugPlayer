@@ -6,18 +6,16 @@
 -- Get All player data
 TriggerEvent("ft_gamemode:SvAddSimpleCommand", "SvPlayers", 2, function (source, args)
 
-  TriggerEvent("ft_gamemode:SvGetPlayers", function (players)
-    TriggerEvent("ft_debugBase:SvDebug", players)
-  end)
+  local players = exports.ft_gamemode:GetPlayers()
+  TriggerEvent("ft_debugBase:SvDebug", players)
 
 end)
 
 -- Get Player data
 TriggerEvent("ft_gamemode:SvAddSimpleCommand", "SvPlayer", 2, function (source, args)
 
-  TriggerEvent("ft_gamemode:SvGetPlayer", source, function (player)
-    TriggerEvent("ft_debugBase:SvDebug", player)
-  end)
+  local player = exports.ft_gamemode:GetPlayer(source)
+  TriggerEvent("ft_debugBase:SvDebug", player)
 
 end)
 
